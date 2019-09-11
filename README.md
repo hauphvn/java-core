@@ -105,3 +105,13 @@ Overriding: Chi nam 2 class KHAC NHAU va co quan he thua ke
 ###--Su khac nhau giua thuc thi interface Runnable va class Thread
 - to do
 ### File trong Java IO  
+- Qua trinh Encoding:  
+Khi ta nhap ki tu 'A' vao mot trinh soan van ban bat ki, thi se chuyen thanh ma ASCII la so 65
+va tiep theo se duoc chuyen thanh ma nhi phan 010000001.  
+- Qua trinh Decoding:  
+Nguoc lai.  
+- Tuy nhien ma ASCII chi dung 1 byte de bieu dien mot ki tu nen chi thich hop luu ki tu tieng Anh.  
+Vi vay de luu duoc ki tu co dau ta phai su dung bang ma Unicode.  
+- UTF-8:  
+Su dung 1-4 byte de bieu dien 1 ki tu  
+Tuong thich hoan toan voi bang ma ASCII  
