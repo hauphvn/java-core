@@ -126,3 +126,14 @@ Tuong thich hoan toan voi bang ma ASCII
 1. DataInputStream, DataOutputStream: nhận vào tham số là **kiểu đọc, ghi file cấp thấp**. ``Không`` thể đọc ``1 dòng``.
 2. BufferedReader, PrintWriter: nhận vào tham số là **kiểu đọc, ghi file cấp thấp**. ``Có`` thể đọc ghi ``1 dòng``.  
  
+Java NIO 2
+==
+#####1. Path, Paths:   
+Path là Interface.  
+Paths la Class.  
+#####1. File, Directory:  
+Tạo file, tạo đường dẫn theo path.
+#####1. Writing file, Reading file: 
+- Dùng OutputStream để ghi file.  
+- Dùng BufferedReader để đọc file.  
+
