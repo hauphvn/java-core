@@ -115,3 +115,14 @@ Vi vay de luu duoc ki tu co dau ta phai su dung bang ma Unicode.
 - UTF-8:  
 Su dung 1-4 byte de bieu dien 1 ki tu  
 Tuong thich hoan toan voi bang ma ASCII  
+
+Đọc ghi file cấp thấp 
+--
+1. FileInputStream, FileOutputStream : xu ly file byte, ko dấu 
+2. FileReader, FileWrite : xu li dữ liệu có dấu
+
+Đọc ghi file cấp cao
+--
+1. DataInputStream, DataOutputStream: nhận vào tham số là **kiểu đọc, ghi file cấp thấp**. ``Không`` thể đọc ``1 dòng``.
+2. BufferedReader, PrintWriter: nhận vào tham số là **kiểu đọc, ghi file cấp thấp**. ``Có`` thể đọc ghi ``1 dòng``.  
+ 
